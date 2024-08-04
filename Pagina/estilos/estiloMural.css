@@ -1,0 +1,16 @@
+.cont{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont .mural{
+    width: 60%;
+}
+
+.cont .cronologico{
+    width: 60%;
+}
+

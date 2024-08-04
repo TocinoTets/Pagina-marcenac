@@ -1,0 +1,41 @@
+main .gap{
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    height: 5vh;
+    border-bottom: 2px solid rgba(145, 145, 145, 0.6);
+    font-size: 0.9em;
+}
+
+main .gap a{
+    text-decoration: none;
+    color: black;
+}
+
+main .presentacion{
+    display: flex;
+    width: 100%;
+}
+
+main .presentacion .side{
+    width: 30%;
+    margin: 5%;
+    padding: 2%;
+    background-color: rgb(250, 211, 139);
+    border: 2px solid rgb(254, 194, 84);
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: justify;
+    align-content: center;
+}
+
+main .presentacion .info{
+    width: 70%;
+    margin:2%;
+    padding: 1%;
+}
+
+main .presentacion .info h2{
+    text-decoration: underline;
+}
