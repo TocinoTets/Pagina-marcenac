@@ -12,7 +12,7 @@ echo "<header class='site-header'>
     <li><b><a href='acciones_realizadas.php'>ACCIONES REALIZADAS</a></b></li>
     <li><b><a href='catedraAbierta.php'>CATEDRA ABIERTA</a></b></li>
     <li><b><a href='desarme.php'>DESARME</a></b></li>
-    <li><b><a href='novedades.php'>NOVEDADES</a></b></li>
+    <li><b><a href='noticias.php'>NOTICIAS</a></b></li>
     <li><b><a href='contacto.php'>CONTACTO</a></b></li>
   </ul>
 </div>

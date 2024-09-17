@@ -1,5 +1,9 @@
 main .portada{
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     background-image: URL('imagenes/Portada/SLIDER.jpg');
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 5em;
 }

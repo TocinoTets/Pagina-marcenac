@@ -69,14 +69,37 @@
         <div class="presentacion">
               <h1><b>Quiénes somos y qué hacemos</b></h1>
               <p>Somos una red de asociaciones civiles a nivel nacional cuyo objetivo es lograr el desarme de la sociedad y lograr la solución de conflictos por la paz.</p>
-              <a href="presentacion.php"><b>VER MAS ></b></a>
+              <a href="presentacion.php"><b>PRESENTACIÓN ></b></a>
         </div>
-        <div class="gap"></div>
+        <div class="gapLinea"></div>
+
+          <h1 style="text-align:center;">Ultimas noticias <br>
+          <a href="noticias.php">>Ver Mas<</a></h1>
 
         <div class="noticias">
-            <h1>Noticias</h1>
             
+            <?php
+                require("php/conexion.php");
+
+                $sql = "SELECT * FROM noticias ORDER BY idNoticia DESC";
+
+                $respuesta = mysqli_query($conexion,$sql);
+
+                if (mysqli_num_rows($respuesta)<=3)
+                {
+                    while ($filas = mysqli_fetch_assoc($respuesta))
+                    {
+                        echo'<div class="noticia">
+                            <div id="tituloNoticia"><h1>'.$filas['tituloNoticia'].'</h1></div>
+                            <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p></div>
+                            <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
+                        </div>';
+                    }
+                }
+            ?>
         </div>
+
+          
 
         <?php
        

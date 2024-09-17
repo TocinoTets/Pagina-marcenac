@@ -18,7 +18,7 @@
         
         ?>
          <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
-    
+            Acciones realizadas
         </div>
         <div class="cont">
             <div class="acciones">

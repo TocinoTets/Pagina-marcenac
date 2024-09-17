@@ -10,13 +10,12 @@
 </head>
 <body> 
     <main>
-
       <?php
        
        require ("php/Maqueta/header.php");
         
         ?>
-        
+         <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">Cátedra Abierta</div>
         <?php
        
        require ("php/Maqueta/footer.php");

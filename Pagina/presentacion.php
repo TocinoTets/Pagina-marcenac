@@ -16,7 +16,7 @@
 
     <main>
         <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
-    
+            Presentación
         </div>
 
         <div class="gap">
