@@ -13,20 +13,13 @@
 
       <?php
        
-        require ("php/header.php")
+       require ("php/Maqueta/header.php");
         
         ?>
-        <div class="mural">
-
-        </div>
-
-        <div class="cronologico">
-
-        </div>
         
         <?php
        
-       require ("php/footer.php")
+       require ("php/Maqueta/footer.php");
        
        ?>
    </main>

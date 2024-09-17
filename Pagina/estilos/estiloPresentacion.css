@@ -1,6 +1,6 @@
 main .gap{
     display: flex;
-    width: 100%;
+    width: 95%;
     margin-left: 5%;
     padding-bottom: 1%;
     height: 5vh;
@@ -24,6 +24,7 @@ main .presentacion .side{
     padding: 2%;
     background-color: rgb(250, 211, 139);
     border: 2px solid rgb(254, 194, 84);
+    border-radius: 4%;
     box-sizing: border-box;
     font-weight: bold;
     text-align: justify;
@@ -39,3 +40,57 @@ main .presentacion .info{
 main .presentacion .info h2{
     text-decoration: underline;
 }
+
+.gapInfo{
+    width: 100%;
+    height: 2vh;
+    height: fit-content;
+    text-align: center;
+  }
+
+.Mural{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width: 94%;
+    background-color: #717171;
+}
+
+.Mural .imagenMural{
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.Mural .imagenMural img{
+    width: 70%;
+    height: 70%;
+}
+
+.Mural .informacionMural{
+    width: 50%;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+    border: 2px solid black;
+}
+
+#gapInfo{
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+.Mural .informacionMural h1{
+    text-align: center;
+}
+
+.Mural .informacionMural a{
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+  }

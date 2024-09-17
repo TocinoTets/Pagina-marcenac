@@ -14,7 +14,7 @@
 
       <?php
        
-        require ("php/header.php")
+        require ("php/Maqueta/header.php");
         
         ?>
          <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
@@ -80,7 +80,7 @@
         </div>
         <?php
        
-       require ("php/footer.php")
+       require ("php/Maqueta/footer.php");
        
        ?>
    </main>
