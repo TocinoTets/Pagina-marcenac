@@ -17,14 +17,14 @@
        require ("php/Maqueta/header.php");
         
         ?>
-        <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">Noticias</div>
+        <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')"><p>Noticias</p></div>
 
         <div class="gap">
             <p><a href="index.php">Home</a></p> <p>/presentacion</p>
         </div>
 
         <br>
-
+        <div class="contenedorNoticias">
             <?php
                 require("php/conexion.php");
 
@@ -38,15 +38,18 @@
                     {
                         echo'<div class="noticia">
                             <div id="tituloNoticia"><h1>'.$filas['tituloNoticia'].'</h1></div>
-                            <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p></div>
+                          <div class="contenidoNoticia">
+                            <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p>
+                            <p>Publicado:'.$filas['fechaPublicacion'].'</p></div>
                             <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
+                          </div>
                         </div>
                         
                         <div class="gapNoticia"></div>';
                     }
                 }
             ?>
-
+        </div>
         <?php
        
        require ("php/Maqueta/footer.php");

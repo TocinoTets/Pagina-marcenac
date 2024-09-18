@@ -15,7 +15,7 @@
        require ("php/Maqueta/header.php");
         
         ?>
-         <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">Cátedra Abierta</div>
+         <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')"><p>Cátedra Abierta</p></div>
         <?php
        
        require ("php/Maqueta/footer.php");

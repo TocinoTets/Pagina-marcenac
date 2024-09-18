@@ -16,7 +16,7 @@
 
     <main>
         <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
-            Presentación
+            <p>Presentación</p>
         </div>
 
         <div class="gap">
@@ -48,7 +48,6 @@
         <div class="Mural">
             
             <div class="imagenMural">
-                <h1>Imagen del mural:</h1>
                 <img src="imagenes/imagenesMural/mural.jpg"></a>
             </div>
             <div class="informacionMural">

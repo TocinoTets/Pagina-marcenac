@@ -69,7 +69,7 @@
         <div class="presentacion">
               <h1><b>Quiénes somos y qué hacemos</b></h1>
               <p>Somos una red de asociaciones civiles a nivel nacional cuyo objetivo es lograr el desarme de la sociedad y lograr la solución de conflictos por la paz.</p>
-              <a href="presentacion.php"><b>PRESENTACIÓN ></b></a>
+              <a href="presentacion.php"><b>PRESENTACIÓN</b></a>
         </div>
         <div class="gapLinea"></div>
 
@@ -91,8 +91,10 @@
                     {
                         echo'<div class="noticia">
                             <div id="tituloNoticia"><h1>'.$filas['tituloNoticia'].'</h1></div>
+                          <div class="contenidoNoticia">
                             <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p></div>
                             <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
+                          </div>
                         </div>';
                     }
                 }

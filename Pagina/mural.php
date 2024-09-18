@@ -18,7 +18,7 @@
         
       ?>
       <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
-        Mural
+        <p>Mural</p>
       </div>
         <div class="cont">
           <div class="mural">

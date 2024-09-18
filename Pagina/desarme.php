@@ -11,7 +11,7 @@
 <body> 
     <main>
 
-    <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">Desarme</div>
+    <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')"><p>Desarme</p></div>
       <?php
        
        require ("php/Maqueta/header.php");

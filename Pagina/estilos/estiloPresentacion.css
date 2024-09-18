@@ -1,3 +1,11 @@
+h2{
+    font-size: 1.7em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
 main .gap{
     display: flex;
     width: 95%;
@@ -22,8 +30,9 @@ main .presentacion .side{
     width: 30%;
     margin: 5%;
     padding: 2%;
-    background-color: rgb(250, 211, 139);
-    border: 2px solid rgb(254, 194, 84);
+    background-color: #ffb706;
+    border: 2px solid #e77717;
+    color: white;
     border-radius: 4%;
     box-sizing: border-box;
     font-weight: bold;
@@ -54,29 +63,29 @@ main .presentacion .info h2{
     margin-right: 3%;
     margin-bottom: 3%;
     width: 94%;
-    background-color: #717171;
+    border: 2px solid black;
 }
 
 .Mural .imagenMural{
     width: 50%;
     align-content: center;
     text-align: center;
-    border: 2px solid black;
+    
 }
 
 .Mural .imagenMural img{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
 
 .Mural .informacionMural{
     width: 50%;
+    background-color: #717171;
     color: white;
     padding-left: 2%;
     padding-right: 2%;
     text-align: justify;
-    text-justify: inter-word;
-    border: 2px solid black;
+    text-justify: inter-word;   
 }
 
 #gapInfo{
@@ -92,5 +101,9 @@ main .presentacion .info h2{
 .Mural .informacionMural a{
     text-align: center;
     text-decoration: none;
-    color: orange;
+    background-color: #e77717;
+    border: 2px solid black;
+    color: white;
+    padding: 6px;
+    border-radius: 5%;
   }

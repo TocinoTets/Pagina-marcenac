@@ -11,7 +11,7 @@
 <body> 
     <main>
 
-    <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">Contacto</div>
+    <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')"><p>Contacto</p></div>
       <?php
        
        require ("php/Maqueta/header.php");
