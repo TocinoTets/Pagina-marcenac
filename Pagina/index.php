@@ -100,9 +100,7 @@
                 }
             ?>
         </div>
-
-          
-
+        
         <?php
        
        require ("php/Maqueta/footer.php");

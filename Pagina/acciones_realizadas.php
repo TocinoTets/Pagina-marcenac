@@ -66,15 +66,24 @@
                 </li>
                 <li>
                 <div class="accion">
+                    <p>En 2014 se abrió la primera cohorte de la Diplomatura, que ya cuenta con 987 egresados.</p>
+                </div>
+                </li>
+                <li>
+                <div class="accion">
                     <p>Octubre 2015: se realizó el 4to Congreso Callejero por la PAZ, para los niveles educativos primario y secundario, con asistencia de más de 1000 niños y jóvenes y más de 400 docentes de los diferentes niveles.</p>
+                </div>
+                </li>
+                <li>
+                <div class="accion">
+                    <p>2023: se aprobó como propuesta de Educación a Distancia. </p>
                 </div>
                 </li>
             </ul>
         </div>
         <div class="side">
-            <img src="imagenes/Redes/pdf.png" alt="">
-            <a href="http://alfredomarcenac.org/descargas/s%C3%ADntesis%20_actividad_marcenac.pdf" target="_blank"><button><img src="imagenes/Redes/pdf.png" alt="">DESCARGAR PDF</button></a>
-            <h2>Resumen de Acciones Realizadas</h2>
+            <a href="CORREGIDO PLANTILLA ED PARA LA PAZ 7MO2DA G1 SUBa.pdf" target="_blank"><button><img src="imagenes/Redes/pdf.png" alt="">DESCARGAR PDF</button></a>
+            <h2>Educacion para la paz</h2>
             <p>Te invitamos a descargar el powerpoint que hemos elaborado para charlas y presentaciones.</p>
             </div>
         </div>
