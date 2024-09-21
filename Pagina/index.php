@@ -79,24 +79,29 @@
         <div class="noticias">
             
             <?php
-                require("php/conexion.php");
 
+                $i = 0;
+                require("php/conexion.php");
+                
                 $sql = "SELECT * FROM noticias ORDER BY idNoticia DESC";
 
                 $respuesta = mysqli_query($conexion,$sql);
 
-                if (mysqli_num_rows($respuesta)<=3)
+                if (mysqli_num_rows($respuesta)>0)
                 {
-                    while ($filas = mysqli_fetch_assoc($respuesta))
+                    
+                    for($i=0;$i<3;$i++)
                     {
+                        $filas = mysqli_fetch_assoc($respuesta);
                         echo'<div class="noticia">
                             <div id="tituloNoticia"><h1>'.$filas['tituloNoticia'].'</h1></div>
-                          <div class="contenidoNoticia">
-                            <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p></div>
-                            <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
-                          </div>
-                        </div>';
+                            <div class="contenidoNoticia">
+                              <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p></div>
+                              <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
+                            </div>
+                          </div>';
                     }
+                  
                 }
             ?>
         </div>

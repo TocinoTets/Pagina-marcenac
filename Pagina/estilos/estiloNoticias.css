@@ -21,17 +21,18 @@ main .gap a{
 main .noticia{
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 100%;
     height: fit-content;
     background-color: #717171;
-    border-radius: 3%;
+    border-radius: 5%;
+    margin-bottom: 10px;
   }
   
   main .noticia #tituloNoticia{
     font-size: 1.5em;
     text-align: center;
     background-color:#ffb706;;
-    border-radius: 3%;
+    border-radius: 5%;
   }
   
   main .noticia .contenidoNoticia{
@@ -40,7 +41,7 @@ main .noticia{
   }
   
   main .noticia .contenidoNoticia #descripcionNoticia{
-    width: 50%;
+    width: 100%;
     text-align: center;
     height: fit-content;
   }
@@ -54,7 +55,7 @@ main .noticia{
   }
   
   main .noticia .contenidoNoticia #imagenNoticia{
-    width: 50%;
+    width: 100%;
     text-align: center;
   }
   

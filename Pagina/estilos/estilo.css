@@ -284,12 +284,12 @@ main .noticia .contenidoNoticia #descripcionNoticia{
   width: 50%;
   text-align: center;
   height: fit-content;
+  padding-right: 5%;
 }
 
 main .noticia .contenidoNoticia #descripcionNoticia p{
   text-align: center;
   padding-left: 5%;
-  padding-right: 5%;
   overflow-x: hidden;
 }
 

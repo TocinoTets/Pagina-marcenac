@@ -31,7 +31,7 @@
 
                     <?php
                         require("php/conexion.php");
-
+                        
                         $sql = "SELECT * FROM noticias ORDER BY idNoticia DESC";
 
                         $respuesta = mysqli_query($conexion,$sql);

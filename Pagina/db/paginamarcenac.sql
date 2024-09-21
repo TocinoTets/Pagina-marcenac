@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Sep 17, 2024 at 09:47 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 22-09-2024 a las 00:00:51
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `paginamarcenac`
+-- Base de datos: `paginamarcenac`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `noticias`
+-- Estructura de tabla para la tabla `noticias`
 --
 
 CREATE TABLE `noticias` (
@@ -32,22 +32,25 @@ CREATE TABLE `noticias` (
   `tituloNoticia` varchar(60) NOT NULL,
   `descripcionNoticia` varchar(500) NOT NULL,
   `direccionImagen` varchar(100) DEFAULT NULL,
-  `Estado` tinyint(1) NOT NULL
+  `Estado` tinyint(1) NOT NULL,
+  `fechaPublicacion` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `noticias`
+-- Volcado de datos para la tabla `noticias`
 --
 
-INSERT INTO `noticias` (`idNoticia`, `tituloNoticia`, `descripcionNoticia`, `direccionImagen`, `Estado`) VALUES
-(1, 'Mural', 'Aca esta la foto del mural como noticia', 'imagenes/imagenesNoticias/Mural.jpg', 1),
-(3, 'Imagen mural 2', 'Imagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImagen2limittextImag', 'imagenes/imagenesNoticias/Imagen mural 2.', 1),
-(5, 'IMagen mural 3', 'Por favor funciona o voy a explotar', 'imagenes/imagenesNoticias/IMagen mural 3.jpg', 1);
+INSERT INTO `noticias` (`idNoticia`, `tituloNoticia`, `descripcionNoticia`, `direccionImagen`, `Estado`, `fechaPublicacion`) VALUES
+(1, 'Mural', 'Aca esta la foto del mural como noticia', 'imagenes/imagenesNoticias/Mural.jpg', 1, '2024-09-21 21:06:51'),
+(3, 'Imagen mural 2', 'Imagen2', 'imagenes/imagenesNoticias/noticia2.jpeg', 1, '2024-09-21 21:43:22'),
+(5, 'IMagen mural 3', 'Por favor funciona o voy a explotar', 'imagenes/imagenesNoticias/IMagen mural 3.jpg', 1, '2024-09-21 21:06:51'),
+(7, 'noticia 4', 'skibidi', 'imagenes/imagenesNoticias/noticia 4.jpeg', 1, '2024-09-21 21:23:57'),
+(8, 'noticia 5', 'notica 5', 'imagenes/imagenesNoticias/noticia 5.jpeg', 1, '2024-09-21 21:40:50');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `usuario`
+-- Estructura de tabla para la tabla `usuario`
 --
 
 CREATE TABLE `usuario` (
@@ -58,40 +61,40 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `usuario`
+-- Volcado de datos para la tabla `usuario`
 --
 
 INSERT INTO `usuario` (`idUsuario`, `email`, `contrasenia`, `tipoUsuario`) VALUES
 (2, 'Admin', 'e3afed0047b08059d0fada10f400c1e5', 1);
 
 --
--- Indexes for dumped tables
+-- Índices para tablas volcadas
 --
 
 --
--- Indexes for table `noticias`
+-- Indices de la tabla `noticias`
 --
 ALTER TABLE `noticias`
   ADD PRIMARY KEY (`idNoticia`);
 
 --
--- Indexes for table `usuario`
+-- Indices de la tabla `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`idUsuario`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT for table `noticias`
+-- AUTO_INCREMENT de la tabla `noticias`
 --
 ALTER TABLE `noticias`
-  MODIFY `idNoticia` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `idNoticia` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
--- AUTO_INCREMENT for table `usuario`
+-- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
   MODIFY `idUsuario` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
