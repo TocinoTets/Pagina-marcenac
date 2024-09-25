@@ -55,7 +55,7 @@
 
                       <div class="texto">
                         <h1><b>DIPLOMATURA</b></h1>
-                        <a href=""><b>AMPLIAR ></b></a>
+                        <a href="diplomatura.php"><b>AMPLIAR ></b></a>
                       </div>
 
                     </div>   
