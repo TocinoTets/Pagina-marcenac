@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,7 +59,7 @@
                 La imagen rescata características de Alfredo: su serenidad, su alegría de vivir y su sonrisa siempre franca y abierta y su amor por la natación y el mar. Era una persona tranquila y pacífica, muy querida en los grupos de los que formaba parte. Por eso sus manos se convierten en palomas, pues nada que viniera de él era agresivo.
                 Las frases pretenden expresar el dolor que sentimos por su ausencia y el dolor que produce la violencia en las personas. Si bien en el momento que pintamos este mural en el lugar que mataron a Alfredo pretendimos que nadie olvidara lo que había sucedido, este mural se convirtió en un icono para nuestra Asociación que guía las acciones que hacemos para lograr una sociedad pacífica y sin armas.</p>
                 
-                <a href="mural.php"><b>Ver su creación >></b></a>
+                <a href="mural.php"><b>Ver su creación >></a>
             </div>
         </div>
 

@@ -107,3 +107,27 @@ main .presentacion .info h2{
     padding: 6px;
     border-radius: 5%;
   }
+
+@media (min-width:600px) and (max-width: 1200px){
+    main .presentacion{
+       flex-direction: column;
+    }
+    main .presentacion .side{
+       font-size: 2em;
+        width: 90%;
+    }
+    main .presentacion .info{
+        font-size: 2em;
+         width: 90%;
+     }
+    main .Mural{
+        flex-direction: column;
+    }
+    .Mural .imagenMural{
+        width: 100%;
+    }
+    .Mural .informacionMural{
+        width: auto; 
+        font-size: 1em; 
+    }
+}

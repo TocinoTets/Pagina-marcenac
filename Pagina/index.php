@@ -47,8 +47,8 @@
 
                   <div class="enlaces">      
 
-                    <div class="caja">
-
+                    <div class="caja" >
+                     
                       <div class="icono">
                         <img src="imagenes/Portada/bank-3-100.png">
                       </div>
