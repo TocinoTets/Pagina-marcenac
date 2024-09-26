@@ -20,9 +20,12 @@
          <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
             <p>Historia</p>
         </div>
+        <div class="gap">
+                <p><a href="index.php">Home</a></p> <p>/Historia</p>
+            </div>
         <div class="cont">
             <div class="acciones">
-            <h1>ACCIONES REALIZADAS</h1>
+            <h1>NUESTRA HISTORIA</h1>
             <h3>En orden cronologico</h3>
 
             <h2>La Asociación en su trayectoria y propuestas ha ido definiendo un perfil predominantemente educativo y una modalidad de trabajo en redes.</h2>

@@ -55,7 +55,7 @@ main .presentacion .info h2{
     height: 2vh;
     height: fit-content;
     text-align: center;
-  }
+}
 
 .Mural{
     display: flex;
@@ -108,7 +108,7 @@ main .presentacion .info h2{
     border-radius: 5%;
   }
 
-@media (min-width:600px) and (max-width: 1200px){
+@media (min-width:400px) and (max-width: 1200px){
     main .presentacion{
        flex-direction: column;
     }
@@ -129,5 +129,10 @@ main .presentacion .info h2{
     .Mural .informacionMural{
         width: auto; 
         font-size: 1em; 
+    }
+
+
+    main .portada {
+        font-size: 4em;
     }
 }

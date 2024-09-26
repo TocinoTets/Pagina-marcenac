@@ -2,8 +2,9 @@
 
 echo "
 <footer>
+      
       <div class='informacion'>
-        <img src='imagenes/Logo/logo_asociacion_blanco-300x76.png' id='logo'>
+      <img src='imagenes/Logo/logo_asociacion_blanco-300x76.png' id='logo'>
         <p>Personería Jurídica 33.789</p>
         <p>Domicilio: Calle 81 Nº 664- Necochea<br>
           Tel: 02262-43-2039<br>

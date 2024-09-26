@@ -34,3 +34,12 @@ main .desarme .info{
 main .pdesarme .info h2{
     text-decoration: underline;
 }
+
+@media (min-width:400px) and (max-width: 1200px){
+    main .desarme .info {
+        width: 90%;
+    }
+    main .portada {
+        font-size: 4em;
+    }
+}
