@@ -20,6 +20,10 @@
       <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
         <p>Mural</p>
       </div>
+      <div class="gap">
+            <p><a href="index.php">Home</a></p> <p>/Presentacion</p><p>/Mural</p>
+        </div>
+
         <div class="cont">
           <div class="mural">
             <h1>EL MURAL</h1>
@@ -33,7 +37,7 @@
           </div>
 
           <div class="cronologico">
-            <h1>EL MURAL CRONOLOGICAMENTE</h1>
+            <h2>EL MURAL CRONOLOGICAMENTE</h2>
             <p>El Mural Cronologicamente
                 Paso a paso como fue su creación <br><br>
 
@@ -69,7 +73,7 @@
                 <b>Vista actual del mosaico</b><br><br>
                 <img src="imagenes/imagenesMural/elmuraldefredy_clip_image024-300x227.jpg"><br><br>
 
-                Si querés, podés mirar una nota de Telefé Noticias en el micro “Testigo urbano” que le hicieron a Lucía y a Juan Enrique, hermanos de Alfredo, en el año 2012: http://telefenoticias.com.ar/es/videos/sociedad/20120412/testigo-urbano-los-santuarios-memoria/41690.shtml<br><br>
+                <br><br>
 
                 •    En el año 2008 y a partir de la recepción que habíamos tenido en la Escuela de Cerámica de Bs. As., nos acercamos a la Escuela de Arte Nº 500 de Necochea, para hacer algo similar en nuestra ciudad, ya que el mural ubicado en la Plaza de la PAZ  (en 58 y 61), también se estaba deteriorando. La idea generó mucho entusiasmo en la Escuela de Arte y desde la cátedra de Escultura, la Profesora Marina Rosso y sus alumnos, nos propusieron diseñar una escultura. La propuesta fue hacer una obra en fibra de vidrio que recreara la imagen del mural original. Tanto la docente como sus alumnos, trabajaron con un gran compromiso los días sábado, ya que el material que se usaba requería algunos cuidados especiales y mucho tiempo. El mural se inauguró el 2 de octubre de 2010, el día internacional de la no violencia, porque se conmemora el cumpleaños de Mahatma Gandhi.
                 El mural escultórico es una obra única, no sólo por sus dimensiones, sino por el material que se utilizó para su construcción. Conserva las frases que originalmente la familia de Alfredo pensamos en su homenaje y hoy se hace extensivo también a todas las víctimas de la violencia de nuestra comunidad.
