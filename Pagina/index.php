@@ -68,7 +68,7 @@
 
         <div class="presentacion">
               <h1><b>Quiénes somos y qué hacemos</b></h1>
-              <p>Somos una red de asociaciones civiles a nivel nacional cuyo objetivo es lograr el desarme de la sociedad y lograr la solución de conflictos por la paz.</p>
+              <p>Somos una organizacion civil cuyo propósito es concientizar sobre la problematica que ocasionan las armas de fuego en la sociedad y promover la solución de conflictos por medios pacificos.</p>
               <a href="presentacion.php"><b>PRESENTACIÓN</b></a>
         </div>
         <div class="gapLinea"></div>

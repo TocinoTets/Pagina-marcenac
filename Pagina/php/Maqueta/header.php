@@ -16,6 +16,9 @@ echo "<header class='site-header'>
     <li><b><a href='contacto.php'>CONTACTO</a></b></li>
   </ul>
 </div>
+<div class='menuH' style='display:none'>
+<a><img src='imagenes/menuH.webp'</a>
+</div>
 
 </header>
 "

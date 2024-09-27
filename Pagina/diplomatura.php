@@ -47,7 +47,7 @@
             <p>La Diplomatura ya cuenta con 100 egresados A fines de 2023, la Universidad aprobó (Resolución 8563/23), el dictado de la misma a distancia. 
             Esta propuesta formativa con modalidad virtual, iniciará en marzo de 2025.</p>
         
-            <p>Para mayor información, consultar en <a href="www.quequen.unicen.edu.ar">www.quequen.unicen.edu.ar</a></p>
+            <p>Para mayor información, consultar en <a href="https://www.quequen.unicen.edu.ar/?page_id=3165">www.quequen.unicen.edu.ar</a></p>
         </div>
    </main>
    <?php

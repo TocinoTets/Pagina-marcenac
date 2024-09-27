@@ -25,11 +25,6 @@
             <p>Cátedra Abierta en Educación para la Paz «Alfredo Marcenac»
             En el año 2009 se crea la Cátedra Abierta de la Asociación (Res. 3868/09), en la Subsede Quequén de la Universidad Nacional del Centro de la Provincia de Buenos Aires, a partir de la cual se desarrollan tareas de capacitación docente y experiencias de trabajo territorial orientadas a la resolución pacífica de conflictos y al desarrollo humano. Actualmente y por Res.7400/19 (UNICEN), se denomina Cátedra Abierta en Educación para la Paz “Alfredo Marcenac”.
             </p>
-            <div class="side">
-                <a href="CORREGIDO PLANTILLA ED PARA LA PAZ 7MO2DA G1 SUBa[1].pdf" target="_blank"><button><img src="imagenes/Redes/pdf.png" alt="">DESCARGAR PDF</button></a>
-                <h2>Resumen de nuestra historia</h2>
-                <p>Te invitamos a descargar el powerpoint que hemos elaborado para charlas y presentaciones.</p>
-            </div>
         </div>
          </div>
         

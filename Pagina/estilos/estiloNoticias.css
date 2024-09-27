@@ -73,3 +73,16 @@ main .gapNoticia{
     height: 1px;
     background-color: black;
 }
+
+
+@media (min-width:400px) and (max-width: 1200px){
+
+  .row{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .row-cols-3>*{
+    width: 100%;
+  }
+}

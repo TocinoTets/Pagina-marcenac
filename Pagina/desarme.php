@@ -25,8 +25,8 @@
 
     <div class="desarme">
         <div class="info">
-            <h2>(titulo preguntar a moni) y como se va a ver</h2>
-            <p>La Asociación integra desde 2007 la Red Argentina para el Desarme, (red de organizaciones de la sociedad civil con 15 años de experiencia en la prevención de la violencia armada). 
+            <h2>Concientizacion para el desarme</h2>
+            <p>La Asociación integra desde 2007 la (hipervinculo)Red Argentina para el Desarme, (red de organizaciones de la sociedad civil con 15 años de experiencia en la prevención de la violencia armada). 
             A partir de la puesta en marcha del Programa Nacional de entrega de Armas de fuego (Ley 26.216/07), la organización asumió un rol muy activo en las tareas vinculadas al DESARME de la sociedad civil:
             </p>
         </div>
