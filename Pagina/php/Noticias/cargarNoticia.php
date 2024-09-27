@@ -8,16 +8,25 @@
     <title>Cargar Noticias</title>
 </head>
 <body>
+        <?php
+       
+       require ("../Maqueta/header.php");
+        
+      ?>
+      <main>
+      <div class="portada" style="background-image:URL('../../imagenes/Portada/slider-a.jpg')">
+        <p>Cargar Noticia</p>
+      </div>
     <?php
         include_once("../conexion.php");
         session_start();
         if (!isset($_SESSION['tipoUsuario'])) {
-            echo ' <main style="height:60vh; align-content:center;">
-            <form action="formLogin.php" method="post">
+            echo ' 
+            <form action="formLogin.php" method="post" style=margin:5%;margin-left:45%>
             <button type="submit">Iniciar Sesion</button>
             </form>
             
-            </main>';
+            ';
         } else {
             echo "<div class='formulario'>
                 <form action='../../cargarDatosNoticia.php' method='post' enctype='multipart/form-data' style='text-align:center;'>
@@ -37,7 +46,7 @@
                 </form> 
             </div>";
         }
-
+        echo '</main>';
         require ("../Maqueta/footer.php");
     ?>
     <script src="../../js/js.js" defer></script>

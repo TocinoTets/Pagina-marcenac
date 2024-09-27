@@ -52,6 +52,8 @@ $respuesta = mysqli_query($conexion,$sql);
 
 var_dump($respuesta);
 
+session_destroy();
+
 header("Location: noticias.php");
 
 ?>
