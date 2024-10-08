@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="estilos/maqueta.css">
     <link rel="stylesheet" href="estilos/estilo.css">
     <script src="js/js.js" defer></script>
+    <script src="js/js2.js" defer></script>
     <title>Alfredo Marcenac - Asosiación Civil</title>
 </head>
 <body> 
@@ -16,7 +17,6 @@
        require ("php/Maqueta/header.php");
         
         ?>
-        
         <div class="Portada">
               <div class="mySlides fade">
                   <img src="imagenes/Portada/slider-a.jpg" style="width:100%">
@@ -64,6 +64,7 @@
               </div>
         </div>
 
+        
         <div class="gap"></div>
 
         <div class="presentacion">
@@ -111,6 +112,7 @@
        require ("php/Maqueta/footer.php");
         
         ?>
+        <button onclick="menu()">
     </main>
 </body>
 </html>

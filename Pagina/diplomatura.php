@@ -11,8 +11,7 @@
 </head>
 <body>
     <?php
-       
-       require ("php/header.php")
+       require ("php/Maqueta/header.php")
        
        ?>
     <main>

@@ -5,8 +5,7 @@ echo "<header class='site-header'>
 <div class='logo'>
   <a href='index.php'><img src='imagenes/Logo/logo_asociacion_blanco-300x76.png'></a>
 </div>
-<div class='menuH' onclick='menu()'>
-</div>
+<a class='menuH'></a>
 <div class='botones'>
   <ul>
     <li><b><a href='presentacion.php'>PRESENTACIÓN</a></b></li>
