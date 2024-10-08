@@ -1,11 +1,12 @@
 <?php
 
-echo "<header class='site-header'>
+echo "<header class='site-header'> 
 
 <div class='logo'>
   <a href='index.php'><img src='imagenes/Logo/logo_asociacion_blanco-300x76.png'></a>
 </div>
-
+<div class='menuH' onclick='menu()'>
+</div>
 <div class='botones'>
   <ul>
     <li><b><a href='presentacion.php'>PRESENTACIÓN</a></b></li>
@@ -16,9 +17,7 @@ echo "<header class='site-header'>
     <li><b><a href='contacto.php'>CONTACTO</a></b></li>
   </ul>
 </div>
-<div class='menuH' style='display:none'>
-<a><img src='imagenes/menuH.webp'</a>
-</div>
+
 
 </header>
 "

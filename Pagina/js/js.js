@@ -69,3 +69,18 @@ function carousel() {
 
   setTimeout(carousel, 8000)
 }
+
+//menu 
+
+function menu(){
+  
+  var botones = document.getElementsByClassName("botones");
+
+  if (botones.display == "none"){
+    botones.display = "block";
+  }else
+  {
+    botones.display = "none";
+  }
+
+}
