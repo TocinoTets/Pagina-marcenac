@@ -24,6 +24,10 @@
     </div>
 
     <div class="desarme">
+    <div>
+    <img src="imagenes/fotos marcenac/11115234_10204253464278901_2864683010478981681_n.jpg">
+    </div>
+    <div>
         <div class="info">
             <h2>Concientizacion para el desarme</h2>
             <p>La Asociación integra desde 2007 la (hipervinculo)Red Argentina para el Desarme, (red de organizaciones de la sociedad civil con 15 años de experiencia en la prevención de la violencia armada). 
@@ -53,6 +57,7 @@
                 </li>
             </ul>
         </div>
+    </div>
     </div>
     </main>
    <?php

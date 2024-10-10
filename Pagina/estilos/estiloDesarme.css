@@ -22,17 +22,25 @@ main .gap a{
 
 main .desarme{
     margin-left: 20%;
-    width: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 main .desarme .info{
     width: 70%;
     margin:2%;
-    padding: 1%;
+    padding-left: 10%;
 }
 
 main .pdesarme .info h2{
     text-decoration: underline;
+}
+
+.desarme img{
+    width: 100%;
+    height: 50%;
+    padding-right: 10%;
 }
 
 @media (min-width:400px) and (max-width: 1200px){

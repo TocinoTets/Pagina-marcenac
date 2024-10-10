@@ -21,7 +21,7 @@
             <p><a href="index.php">Home</a></p> <p>/diplomatura</p>
         </div>
 
-        <div class="diplo">
+        <div class="diplo" style="padding-left:10%;padding-right:10%">
             <h2>Diplomatura Universitaria en Educación para la Paz y el Abordaje de la Conflictividad Social</h2>
             <h2>Síntesis de la propuesta pedagógica</h2>
             <p>En el año 2014 la Facultad de Ciencias Sociales de la UNICEN,  puso en marcha la Diplomatura Universitaria en Educación para la Paz y el abordaje de la conflictividad social en la Sede Quequén. Esta propuesta curricular resulta inédita tanto por la temática que aborda y el enfoque pedagógico que asume, como por el proceso de articulación entre universidad y sociedad que implicó su creación. 
@@ -48,10 +48,13 @@
         
             <p>Para mayor información, consultar en <a href="https://www.quequen.unicen.edu.ar/?page_id=3165">www.quequen.unicen.edu.ar</a></p>
         </div>
+        <img src="imagenes/fotos marcenac/DSC05419.jpg">
+        <img src="imagenes/fotos marcenac/DSCN5956.jpg">
+        <img src="imagenes/fotos marcenac/DSC02621.jpg">
    </main>
    <?php
        
-       require ("php/footer.php")
+       require ("php/Maqueta/footer.php")
        
     ?>
 </body>

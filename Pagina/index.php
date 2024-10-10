@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/maqueta.css">
     <link rel="stylesheet" href="estilos/estilo.css">
-    <script src="js/js.js" defer></script>
-    <script src="js/js2.js" defer></script>
+    
     <title>Alfredo Marcenac - Asosiación Civil</title>
 </head>
 <body> 
@@ -114,5 +113,7 @@
         ?>
         <button onclick="menu()">
     </main>
+    <script src="js/js.js" defer></script>
+    <script src="js/js2.js" defer></script>
 </body>
 </html>

@@ -12,13 +12,12 @@
     <title>Alfredo Marcenac - Asosiación Civil</title>
 </head>
 <body> 
-    <main>
-
-      <?php
+        <?php
        
-       require ("php/Maqueta/header.php");
+        require ("php/Maqueta/header.php");
         
         ?>
+    <main>
         <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')"><p>Noticias</p></div>
 
         <div class="gap">
