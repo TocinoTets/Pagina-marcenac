@@ -199,15 +199,38 @@ footer{
     }
     header .botones.click{
       display: block;
-      position: absolute;
       left: 35%;
-      height: 1000%;
+      height: 300%;
       flex-direction: column;
       background-color: #717171;
+      top:0px;
     }
 
+    .Click{
+      animation-name: Click;
+      animation-duration: 1s;
+    }
+    @keyframes Click{
+      0% {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+
+
+
+
+
+
+
+
     .menuH{
-      display:block;
+      display:flex;
       width: 50px;
       height: 50px;
       background-color: blue;
