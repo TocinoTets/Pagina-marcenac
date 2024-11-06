@@ -310,7 +310,10 @@ main .noticia .contenidoNoticia #imagenNoticia img{
   .Portada .enlaces{
     top: 55%;
   }
-
+  .portada img{
+    height: 70%;
+    width: 70%;
+  }
   .presentacion h1{
     color:#ffb706;
     font-size: 2em;

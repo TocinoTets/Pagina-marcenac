@@ -210,7 +210,7 @@ footer{
       width: 30px;
       background-color: #dd9933;
     }
-    header .botones{
+    header.site-header .botones{
       display:none;
       position: absolute;
       top: 100%;
@@ -221,24 +221,24 @@ footer{
       z-index: 3;
       transition: 300ms ease-in-out;
     }
-    header .botones.click{
+    header.site-header .botones.click{
       display:flex;
       justify-content: center;
       
       position: absolute;
       top: 100%;
-      height: 40%;
+      height: 250%;
       width: 100%;
-      background-color: black;
+      background-color: #dd9933;
       overflow: visible;
       z-index: 3;
       transition: 300ms ease-in-out;
     }
-    header .botones ul{
+    header.site-header .botones ul{
       list-style: none;
       flex-direction: column;
       justify-content: space-between;
-      height: 1080%;
+      height: 100%;
       margin: 0px;
       padding: 0px;
     } 
