@@ -3,7 +3,7 @@ h2{
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 main .gap{
     display: flex;
@@ -18,4 +18,14 @@ main .gap{
 main .gap a{
     text-decoration: none;
     color: black;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 50%;
+    margin: 10px;
 }

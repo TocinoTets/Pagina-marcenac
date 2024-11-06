@@ -48,10 +48,12 @@
         
             <p>Para mayor información, consultar en <a href="https://www.quequen.unicen.edu.ar/?page_id=3165">www.quequen.unicen.edu.ar</a></p>
         </div>
+        <div class="imagenes">
         <img src="imagenes/fotos marcenac/DSC05419.jpg">
         <img src="imagenes/fotos marcenac/DSCN5956.jpg">
         <img src="imagenes/fotos marcenac/DSC02621.jpg">
-   </main>
+        </div>
+    </main>
    <?php
        
        require ("php/Maqueta/footer.php")

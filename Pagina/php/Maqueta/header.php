@@ -5,8 +5,8 @@ echo "<header class='site-header'>
 <div class='logo'>
   <a href='index.php'><img src='imagenes/Logo/logo_asociacion_blanco-300x76.png'></a>
 </div>
-<a class='menuH'></a>
-<div class='botones'>
+
+<div class='botones' id='desplegable'>
   <ul>
     <li><b><a href='presentacion.php'>PRESENTACIÓN</a></b></li>
     <li><b><a href='acciones_realizadas.php'>HISTORIA</a></b></li>
@@ -16,30 +16,18 @@ echo "<header class='site-header'>
     <li><b><a href='contacto.php'>CONTACTO</a></b></li>
   </ul>
 </div>
-
-
+<button class='menuH' onclick='desplegar()'>
+      <spam class='bar'></a></spam>
+      <spam class='bar'></a></spam>
+      <spam class='bar'></a></spam>
+  </button>
 </header>
+<script>
+function desplegar() {
+    var menu = document.getElementById('desplegable');
+    menu.classList.toggle('click');
+  }
+</script>
 "
 
 ?>
-
-<script>
-  //menu 
-const menu = document.querySelector('.menuH');
-const botones = document.querySelector('.botones');
-
-// Get the modal
-var modal = document.getElementsByClassName('botones');
-
-menu.addEventListener('click',()=>{
-    
-    botones.classList.toggle("click");
-})
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-  </script>
