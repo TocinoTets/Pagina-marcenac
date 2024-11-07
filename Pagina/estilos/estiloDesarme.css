@@ -21,10 +21,11 @@ main .gap a{
 }
 
 main .desarme{
-    margin-left: 5%;
-    width: 100%;
+    width: 65%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 20%;
 }
 
 
@@ -32,17 +33,13 @@ main .desarme{
 main .desarme .info{
     width: 70%;
     margin:2%;
-    padding-left: 10%;
 }
 
 main .pdesarme .info h2{
     text-decoration: underline;
 }
-
 .desarme img{
-    width: 30%;
-    height: 50%;
-    
+    width: 70%;  
 }
 
 @media (min-width:400px) and (max-width: 1200px){
@@ -51,5 +48,8 @@ main .pdesarme .info h2{
     }
     main .portada {
         font-size: 4em;
+    }
+    .desarme img{
+        width: 100%;  
     }
 }
