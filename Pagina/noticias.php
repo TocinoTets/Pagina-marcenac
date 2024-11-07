@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="estilos/portada.css">
     <link rel="stylesheet" href="estilos/maqueta.css">
     <link rel="stylesheet" href="estilos/estiloNoticias.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist">
     <script src="js/js.js" defer></script>
     <title>Alfredo Marcenac - Asosiación Civil</title>
 </head>
@@ -25,11 +23,8 @@
         </div>
 
         <br>
-        <div class="contenedorNoticias">
-            <div class="container">
-                <div class="row row-cols-3">
-
                     <?php
+                    echo'<div id="contenedorNoticia">';
                         require("php/conexion.php");
                         
                         $sql = "SELECT * FROM noticias ORDER BY idNoticia DESC";
@@ -40,23 +35,20 @@
                         {
                             while ($filas = mysqli_fetch_assoc($respuesta))
                             {
-                                echo'<div class="col">
-                                        <div class="noticia">
-                                            <div id="tituloNoticia"><h1>'.$filas['tituloNoticia'].'</h1></div>
+                                
+                                        echo '<div class="noticia">
+                                            <div class="tituloNoticia">'.$filas['tituloNoticia'].'</div>
                                             <div class="contenidoNoticia">
-                                                <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p>
+                                                <div class="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p>
                                                 <p>Publicado:'.$filas['fechaPublicacion'].'</p></div>
-                                                <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
+                                                <div class="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
                                             </div>
-                                        </div>
-                                </div>';
+                                        </div>';
+                                    
                             }
                         }
+                        echo '</div>';
                     ?>
-
-                </div>
-            </div>
-        </div>
         <?php
        
        require ("php/Maqueta/footer.php");

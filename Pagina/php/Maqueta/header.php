@@ -25,6 +25,7 @@ echo "<header class='site-header'>
 <script>
 function desplegar() {
     var menu = document.getElementById('desplegable');
+    header.classList.toggle('headerBG');
     menu.classList.toggle('click');
   }
 </script>

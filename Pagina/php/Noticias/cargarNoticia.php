@@ -31,15 +31,15 @@
             echo "<div class='formulario'>
                 <form action='../../cargarDatosNoticia.php' method='post' enctype='multipart/form-data' style='text-align:center;'>
                     <label>Titulo</label>
-                    <input type='text' name='titulo' placeholder='titulo de la noticia'>
+                    <input type='text' name='titulo' placeholder='titulo de la noticia' required>
                     <br><br>
 
                     <label>Contenido</label>
-                    <textarea name='descripcion' rows=5 cols=50 maxlength=500 placeholder='Informacion sobre la noticia'></textarea>
+                    <textarea name='descripcion' rows=5 cols=50 maxlength=500 placeholder='Informacion sobre la noticia' required></textarea>
                     <br><br>
 
                     <label>Imagen</label>
-                    <input type='file' name='archivoAsubir' id='archivoAsubir'>
+                    <input type='file' name='archivoAsubir' id='archivoAsubir' required>
 
                     <br><br>
                     <input type=submit value='Publicar Noticia'>

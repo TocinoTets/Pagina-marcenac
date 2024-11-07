@@ -40,6 +40,11 @@ header{
 
 /* header logo */
 
+.headerBG{
+  background-color: #dd9933;
+  transition: 0s;
+}
+
 header .logo{ 
   width: 25%;
   display: flex;
