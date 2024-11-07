@@ -20,55 +20,35 @@
         
         ?>
          <div class="portada" style="background-image:URL('imagenes/Portada/slider-a.jpg')">
-        <p>contacto</p>
-      </div>
+          <p>contacto</p>
+        </div>
 
-      <div class="gap">
+        <div class="gap">
             <p><a href="index.php">Home</a></p> <p>/Contacto</p>
         </div>
 
-       <div class="form-contacto">
+      <div class="form-contacto">
         <div class="info">
-          <h1 class="texto1">Contactanos</h1>
-
-
-          <p class="texto2">Gracias por visitarnos, a continuación le brindamos nuestros datos
-          para contactarse con la Asociación.</p>
-
-          <p class="texto3">contacto@alfredomarcenac.org</p>
-          <p class="texto3"> +54 (9) 2262 43 2039</p>
-
-          <p class="texto3">Calle 81 Nº 664
-          Necochea, Pcia. Buenos Aires, Argentina</p>
-
+            <h1 class="texto1">Contactanos</h1>
+            <p class="texto2">Gracias por visitarnos, a continuación le brindamos nuestros datos
+            para contactarse con la Asociación.</p>
+            <p class="texto3">contacto@alfredomarcenac.org</p>
+            <p class="texto3"> +54 (9) 2262 43 2039</p>
+            <p class="texto3">Calle 81 Nº 664 Necochea, Pcia. Buenos Aires, Argentina</p>
         </div>
         <div class="form-email">
-        <form action="php/enviar.php" method="post">
-          <h2 class="texto"> Enviar Mensaje</h2>
-          <p class="texto">Su correo electrónico no sera publicado. (Datos obligatorios)</p>
-
-        
-        <input type="text" name="nombre"  class="form-email-txt" placeholder="Nombre" col><br>
-        <input type="email" name="email"  class="form-email-txt" placeholder="Email"><br>
-        <input type="text" name="asunto"  class="form-email-txt" placeholder="Asunto"><br>
-        <textarea name="mensaje"  class="form-email-textarea" placeholder="Mensaje"></textarea>
-        <input type="hidden" name="_captcha" value="false"><br>
-        <input type="submit" value="Enviar" class="boton">
+          <form action="php/enviar.php" method="post">
+            <h2 class="texto"> Enviar Mensaje</h2>
+            <p class="texto">Su correo electrónico no sera publicado. (Datos obligatorios)</p>
+              <input type="text" name="nombre"  class="form-email-txt" placeholder="Nombre" col><br>
+              <input type="email" name="email"  class="form-email-txt" placeholder="Email"><br>
+              <input type="text" name="asunto"  class="form-email-txt" placeholder="Asunto"><br>
+              <textarea name="mensaje"  class="form-email-textarea" placeholder="Mensaje"></textarea>
+              <input type="hidden" name="_captcha" value="false"><br>
+              <input type="submit" value="Enviar" class="boton">
+          </form>
         </div>
-      
-    
-    
-
-        </form>
-<html>
-
-       
-    </div>
-
-        <div class="cronologico">
-
-        </div>
-        
+      </div>
         <?php
        
        require ("php/Maqueta/footer.php");

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/maqueta.css">
     <link rel="stylesheet" href="estilos/estilo.css">
-    
+
     <title>Alfredo Marcenac - Asosiación Civil</title>
 </head>
 <body> 
@@ -18,26 +18,26 @@
         ?>
         <div class="Portada">
               <div class="mySlides fade">
-                  <img src="imagenes/Portada/slider-a.jpg" style="width:100%">
+                  <img src="imagenes/Portada/slider-a.jpg">
                   <div class="texto-anim fadeIn">PREVENIR</div>
                   <div class="texto-anim2 fadeIn">PARA NO</div>
                   <div class="texto-anim3 fadeIn">LAMENTAR</div>
                 </div>
                 <div class="mySlides fade">
-                  <img src="imagenes/Portada/slider-b.jpg" style="width:100%">
+                  <img src="imagenes/Portada/slider-b.jpg">
                   <div class="texto-anim4 fadeIn">COMPROMISO COLECTIVO</div>
                   <div class="texto-anim5 fadeIn">Y</div>
                   <div class="texto-anim6 fadeIn">RESPONSABILIDAD</div>
                 </div>
               
                 <div class="mySlides fade">
-                  <img src="imagenes/Portada/slider-c.jpg" style="width:100%">
+                  <img src="imagenes/Portada/slider-c.jpg">
                   <div class="texto-anim7 fadeIn">CUIDADO DE LA</div>
                   <div class="texto-anim8 fadeIn">VIDA</div>
                 </div>
 
                 <div class="mySlides fade">
-                  <img src="imagenes/Portada/SLIDER.jpg" style="width:100%">
+                  <img src="imagenes/Portada/SLIDER.jpg">
                 </div>
 
                 

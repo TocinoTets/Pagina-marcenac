@@ -1,8 +1,10 @@
 main .form-contacto{
     margin-left: 10%;
+    margin-bottom: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 main .gap{
     display: flex;
@@ -31,6 +33,7 @@ main .gap a{
 main .form-email{
     display: flex;
     flex-direction: row;
+    margin-bottom: 10%;
 }
 main .form-email-txt{
     width: 60%;

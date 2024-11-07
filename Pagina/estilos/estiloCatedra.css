@@ -45,7 +45,16 @@ main .gap a{
     background-color: black;
     height: 1px;
 }
-
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes img{
+    width: 50%;
+    margin: 10px;
+}
 @media (min-width:400px) and (max-width: 1200px){
 
     main .portada {

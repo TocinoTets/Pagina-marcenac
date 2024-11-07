@@ -27,6 +27,7 @@
             </p>
         </div>
          </div>
+        <div class="imagenes">
          <img src="imagenes/fotos marcenac/IMG_6564.jpg">
          <img src="imagenes/fotos marcenac/DSCN5457.jpg">
          <img src="imagenes/fotos marcenac/DSC03593.jpg">
@@ -34,7 +35,7 @@
          <img src="imagenes/fotos marcenac/DSC03410.jpg">
          <img src="imagenes/fotos marcenac/DSC00977.JPG">
          <img src="imagenes/fotos marcenac/DSC00544.jpg">
-         
+        </div>
          
    </main>
    <?php
