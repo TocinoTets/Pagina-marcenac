@@ -8,9 +8,10 @@
     <title>Cargar Noticias</title>
 </head>
 <body>
+    
         <?php
        
-       require ("../Maqueta/header.php");
+       require ("../Maqueta/header2.php");
         
       ?>
       <main>
@@ -43,12 +44,15 @@
 
                     <br><br>
                     <input type=submit value='Publicar Noticia'>
-                </form> 
+                </form>
+                <a href='mostrarNoticias.php'><button>Ver todas las noticias</button></a> 
             </div>";
+            
         }
         echo '</main>';
-        require ("../Maqueta/footer.php");
+        require ("../Maqueta/footer2.php");
     ?>
     <script src="../../js/js.js" defer></script>
+    
 </body>
 </html>

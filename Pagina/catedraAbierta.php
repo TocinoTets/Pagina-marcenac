@@ -11,7 +11,9 @@
 </head>
 <body>
     <?php
-       
+       if(isset($_SESSION)){
+        mysqli_close($conexion);//se cierra la conexion a la base de datos
+      }
        require ("php/Maqueta/header.php");
         
     ?>
