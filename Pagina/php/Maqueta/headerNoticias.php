@@ -8,12 +8,12 @@ echo "<header class='site-header'>
 
 <div class='botones' id='desplegable'>
   <ul>
-    <li><b><a href='../../presentacion.php'>PRESENTACIÓN</a></b></li>
-    <li><b><a href='../../acciones_realizadas.php'>HISTORIA</a></b></li>
-    <li><b><a href='../../catedraAbierta.php'>CATEDRA ABIERTA</a></b></li>
-    <li><b><a href='../../desarme.php'>DESARME</a></b></li>
-    <li><b><a href='../../noticias.php'>NOTICIAS</a></b></li>
-    <li><b><a href='../../contacto.php'>CONTACTO</a></b></li>
+    <li><b><a href='../../sitios/presentacion.php'>PRESENTACIÓN</a></b></li>
+    <li><b><a href='../../sitios/acciones_realizadas.php'>HISTORIA</a></b></li>
+    <li><b><a href='../../sitios/catedraAbierta.php'>CATEDRA ABIERTA</a></b></li>
+    <li><b><a href='../../sitios/desarme.php'>DESARME</a></b></li>
+    <li><b><a href='../../sitios/noticias.php'>NOTICIAS</a></b></li>
+    <li><b><a href='../../sitios/contacto.php'>CONTACTO</a></b></li>
   </ul>
 </div>
 <button class='menuH' onclick='desplegar()'>

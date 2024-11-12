@@ -20,10 +20,6 @@ main .gap a{
     color: black;
 }
 
-body{
-    background-color: antiquewhite;
-}
-
 .titulo{
     width: 100%;
     text-align: center;
@@ -53,13 +49,14 @@ main .noticia{
     box-sizing: border-box;
 }
 
-main .noticia .imagenNoticia{
+main .noticia .imagenNoticia img{
+    width: auto;
     height: 25vh;
 }
 
 main .noticia .tituloNoticia{
-    font-size: large;
-    text-align: left;
+    text-align: center;
+    font-size: 2em;
     height: 4vh;
 }
 main .noticia .fechaNoticia{

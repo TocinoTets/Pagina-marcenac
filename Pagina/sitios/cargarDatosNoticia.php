@@ -1,11 +1,12 @@
 <?php
-require ("php/conexion.php");
+require ("../php/conexion.php");
 session_start();
 if (isset($_SESSION)){
   $titulo = $_POST['titulo'];
   $descripcion = $_POST['descripcion'];
 
-  $carpetaDestino = "imagenes/imagenesNoticias";
+  $carpetaDestino = "../imagenes/imagenesNoticias";
+  $carpetaDestinoIndex = "imagenes/imagenesNoticias";
   $id= $titulo; //el id de la noticia sea el id de la imagen
   $archivo = $carpetaDestino . basename($_FILES["archivoAsubir"]["name"]); //recibimos el archivo completo con nombre y extension para concatenarlo con la carpeta destino
   $subio = 1;
@@ -40,22 +41,28 @@ if (isset($_SESSION)){
     } else {
       echo "Hubo un error subiendo tu archivo.";
     }
+
+    if (move_uploaded_file($_FILES["archivoAsubir"]["tmp_name"], $carpetaDestinoIndex."/".$id.".".$tipoDeImagen)) { //movemos el archivo desde memoria a una carpeta destino, reescribimos su nombre, le agregamos "." y su extension al final
+      echo "El archivo ". htmlspecialchars( basename( $_FILES["archivoAsubir"]["name"])). " fue subido como:  \"".$id.".".$tipoDeImagen."\""; //mensaje de subida con el nuevo nombre
+    } else {
+      echo "Hubo un error subiendo tu archivo.";
+    }
   }
   //si quisieramos guardar la url de la imagen para subirla a una BD, deberiamos usar $carpetaDestino.$id."."$tipoDeImagen , todas esta linea como tipo STRING
 
 
-  $sql = "INSERT INTO noticias (tituloNoticia,descripcionNoticia,direccionImagen,Estado) VALUES ('".$titulo."','".$descripcion."','".$carpetaDestino."/".$id.".".$tipoDeImagen."',1)"; 
+  $sql = "INSERT INTO noticias (tituloNoticia,descripcionNoticia,direccionImagen,direccionImagenIndex,Estado) VALUES ('".$titulo."','".$descripcion."','".$carpetaDestino."/".$id.".".$tipoDeImagen."','".$carpetaDestinoIndex."/".$id.".".$tipoDeImagen."',1)"; 
 
   $respuesta = mysqli_query($conexion,$sql);
 
   var_dump($respuesta);
 
-  session_destroy();
+
 
   header("Location: noticias.php");
 } else {
-  //header("Location: noticias.php");
-  echo 'm';
+  header("Location: noticias.php");
+
 }
 
 ?>

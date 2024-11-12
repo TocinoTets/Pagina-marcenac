@@ -9,20 +9,20 @@
 </head>
 <body>
     <?php
-    require ("../Maqueta/header2.php");
+    require ("../Maqueta/headerNoticias.php");
     ?>
     <main>
     <div class="portada" style="background-image:URL('../../imagenes/Portada/slider-a.jpg')">
         <p>Iniciar Sesion</p>
       </div>
     <?php
-    // session_start();
-    // if(isset($_SESSION['tipoUsuario']))
-    // {
+    session_start();
+    if(isset($_SESSION['tipoUsuario']))
+    {
 
-    // }else{
-    //     header("Location: ../../index.php");
-    // }
+    }else{
+        header("Location: ../../index.php");
+    }
     
     include_once("../conexion.php");
 
@@ -55,8 +55,10 @@
             }
         }
         echo '</main>';
-        require ("../Maqueta/footer2.php");
+        echo '<a href="cargarNoticia.php"><button>volver</button></a>';
+        require ("../Maqueta/footerNoticias.php");
     ?>
+    
     
     <script src="../../js/js.js" defer></script>
 </body>

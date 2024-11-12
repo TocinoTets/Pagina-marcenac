@@ -11,7 +11,7 @@
 
         <?php
        
-       require ("../Maqueta/header2.php");
+       require ("../Maqueta/headerNoticias.php");
         
       ?>
       <main>
@@ -37,7 +37,7 @@
 
             echo'<main>';
 
-        require ("../Maqueta/footer2.php");
+        require ("../Maqueta/footerNoticias.php");
        
     ?>
      <script src="../../js/js.js" defer></script>

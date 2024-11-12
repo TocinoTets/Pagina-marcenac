@@ -12,9 +12,11 @@
     <main>
 
       <?php
+       session_start();
        if(isset($_SESSION)){
-        mysqli_close($conexion);//se cierra la conexion a la base de datos
-      }
+           session_unset();
+           session_destroy();
+       }
        require ("php/Maqueta/header.php");
         
         ?>
@@ -56,7 +58,7 @@
 
                       <div class="texto">
                         <h1><b>DIPLOMATURA</b></h1>
-                        <a href="diplomatura.php"><b>AMPLIAR ></b></a>
+                        <a href="sitios/diplomatura.php"><b>AMPLIAR ></b></a>
                       </div>
 
                     </div>   
@@ -71,7 +73,7 @@
         <div class="presentacion">
               <h1><b>Quiénes somos y qué hacemos</b></h1>
               <p>Somos una organizacion civil cuyo propósito es concientizar sobre la problematica que ocasionan las armas de fuego en la sociedad y promover la solución de conflictos por medios pacificos.</p>
-              <a href="presentacion.php"><b>PRESENTACIÓN</b></a>
+              <a href="Sitios/presentacion.php"><b>PRESENTACIÓN</b></a>
         </div>
         <div class="gapLinea"></div>
 
@@ -99,7 +101,7 @@
                             <div id="tituloNoticia"><h1>'.$filas['tituloNoticia'].'</h1></div>
                             <div class="contenidoNoticia">
                               <div id="descripcionNoticia"><p>'.$filas['descripcionNoticia'].'</p></div>
-                              <div id="imagenNoticia"><img src="'.$filas['direccionImagen'].'"></div>
+                              <div id="imagenNoticia"><img src="'.$filas['direccionImagenIndex'].'"></div>
                             </div>
                           </div>';
                     }

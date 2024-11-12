@@ -11,7 +11,7 @@
     
         <?php
        
-       require ("../Maqueta/header2.php");
+       require ("../Maqueta/headerNoticias.php");
         
       ?>
       <main>
@@ -19,8 +19,16 @@
         <p>Cargar Noticia</p>
       </div>
     <?php
+    session_start();
+    if(isset($_SESSION['tipoUsuario']))
+    {
+
+    }else{
+        header("Location: ../../index.php");
+    }
+    
         include_once("../conexion.php");
-        session_start();
+        
         if (!isset($_SESSION['tipoUsuario'])) {
             echo ' 
             <form action="formLogin.php" method="post" style=margin:5%;margin-left:45%>
@@ -30,7 +38,7 @@
             ';
         } else {
             echo "<div class='formulario'>
-                <form action='../../cargarDatosNoticia.php' method='post' enctype='multipart/form-data' style='text-align:center;'>
+                <form action='../../sitios/cargarDatosNoticia.php' method='post' enctype='multipart/form-data' style='text-align:center;'>
                     <label>Titulo</label>
                     <input type='text' name='titulo' placeholder='titulo de la noticia' required>
                     <br><br>
@@ -50,7 +58,7 @@
             
         }
         echo '</main>';
-        require ("../Maqueta/footer2.php");
+        require ("../Maqueta/footerNoticias.php");
     ?>
     <script src="../../js/js.js" defer></script>
     
