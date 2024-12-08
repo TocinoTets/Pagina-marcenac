@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../estilos/portada.css">
     <link rel="stylesheet" href="../../estilos/maqueta.css">
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap-grid.css">
 </head>
 <body>
     <?php
@@ -15,6 +17,7 @@
     <div class="portada" style="background-image:URL('../../imagenes/Portada/slider-a.jpg')">
         <p>Iniciar Sesion</p>
       </div>
+    <center>
     <?php
     session_start();
     if(isset($_SESSION['tipoUsuario']))
@@ -36,26 +39,29 @@
             while($fila = mysqli_fetch_assoc($respuesta))
             {
                 echo '
-                <div style="margin-left:40%; margin-bottom: 2%; margin-top: 1%;">
-                    <label>Titulo:</label>
-                    <label>'.$fila['tituloNoticia'].'</label>
-                    <br>
-                    <label>Descripcion:</label>
-                    <label>'.$fila['descripcionNoticia'].'</label>
-                    <br>
-                    <label>Estado del proyecto:</label>
-                    <label>'.$fila['Estado'].'</label>
-                    <br>
-                    <form action="eliminarNoticia.php" method="post">
-                        <input type="hidden" name="idNoticia" value="'.$fila['idNoticia'].'">
-                        <input type="submit" value="ELIMINAR">
-                    </form>
+                <div class="card" style="margin: 1%; width: 18rem;">
+                    <div>
+                        <label>Titulo:</label>
+                        <label>'.$fila['tituloNoticia'].'</label>
+                        <br>
+                        <label>Descripcion:</label>
+                        <label>'.$fila['descripcionNoticia'].'</label>
+                        <br>
+                        <label>Estado del proyecto:</label>
+                        <label>'.$fila['Estado'].'</label>
+                        <br>
+                        <form action="eliminarNoticia.php" method="post">
+                            <input type="hidden" name="idNoticia" value="'.$fila['idNoticia'].'">
+                            <button type="submit" class="btn btn-warning">Eliminar</button>
+                        </form>
+                    </div>
                 </div>
                 <br>';
             }
         }
+        echo '<a href="cargarNoticia.php"><button class="btn btn-warning">volver</button></a>';
         echo '</main>';
-        echo '<a href="cargarNoticia.php"><button>volver</button></a>';
+        
         require ("../Maqueta/footerNoticias.php");
     ?>
     

@@ -19,13 +19,13 @@ main .gap a{
     text-decoration: none;
     color: black;
 }
-.imagenes{
+main .imagenes{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-img{
+main img{
     width: 50%;
     margin: 10px;
 }

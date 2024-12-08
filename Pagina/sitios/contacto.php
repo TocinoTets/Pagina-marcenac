@@ -25,7 +25,7 @@
         
         ?>
          <div class="portada" style="background-image:URL('../imagenes/Portada/slider-a.jpg')">
-          <p>contacto</p>
+          <p>Contacto</p>
         </div>
 
         <div class="gap">

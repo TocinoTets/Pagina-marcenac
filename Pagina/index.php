@@ -78,7 +78,7 @@
         <div class="gapLinea"></div>
 
           <h1 style="text-align:center;">Ultimas noticias <br>
-          <a href="noticias.php">>Ver Mas<</a></h1>
+          <a href="sitios/noticias.php">>Ver Mas<</a></h1>
 
         <div class="noticias">
             

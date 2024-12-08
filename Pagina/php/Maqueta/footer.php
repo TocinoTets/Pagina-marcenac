@@ -20,7 +20,7 @@ echo "
       <div class='contacto'>
         <h1>QUIERES AYUDARNOS?</h1>
         <h2>Gracias al apoyo de muchisima gente seguimos dando a conocer<br>nuestra causa</h2>
-        <a href='contacto.php'><button>CONTACTANOS!</button></a>
+        <a href='sitios/contacto.php'><button>CONTACTANOS!</button></a>
       </div>
     </footer>"
 
