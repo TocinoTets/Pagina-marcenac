@@ -47,6 +47,7 @@ main .noticia{
     text-align: center;
     border: 1px solid black;
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
 
 main .noticia .imagenNoticia img{
@@ -67,11 +68,12 @@ main .noticia .fechaNoticia{
 }
 main .noticia .descripcionNoticia{
     width: 100%;
-    text-align: left;
+    text-align: justify;
     height: 18vh;
     text-wrap: wrap;
     color:#686868;
     overflow: hidden;
+    padding-left: 10px;
 }
 
 @media (min-width:326px) and (max-width: 426px){

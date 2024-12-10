@@ -36,6 +36,7 @@ header{
 
   .site-header.is-sticky.noHeader {
     height: 0%;
+    overflow: hidden;
   }
 
 /* header logo */

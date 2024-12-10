@@ -15,7 +15,7 @@
     ?>
     <main>
     <div class="portada" style="background-image:URL('../../imagenes/Portada/slider-a.jpg')">
-        <p>Iniciar Sesion</p>
+        <p>Mostrar noticias</p>
       </div>
     <center>
     <?php
@@ -47,7 +47,7 @@
                         <label>Descripcion:</label>
                         <label>'.$fila['descripcionNoticia'].'</label>
                         <br>
-                        <label>Estado del proyecto:</label>
+                        <label>Estado de la noticia:</label>
                         <label>'.$fila['Estado'].'</label>
                         <br>
                         <form action="eliminarNoticia.php" method="post">
